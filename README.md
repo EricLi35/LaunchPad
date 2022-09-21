@@ -9,4 +9,8 @@ Native apps are built entirely from scratch, which results in higher levels of p
 
 Hybrid apps on the other hand, allows one to convert the website into an app using purely web-based technologies. It is called a hybrid because it uses a native container which displays web information. Most importantly, it still maintains the same features and user experience of the desktop app.
 
-When modifying the code, it is important to use similar milestones and checklists when first building the desktop app, and applying them to the mobile version. However, the design workflow should be tweaked to specifically accomodate for an app-based platofrom. 
+When modifying the code, it is important to use similar milestones and checklists when first building the desktop app, and applying them to the mobile version. However, the design workflow should be tweaked to specifically accomodate for an app-based platofrom. Moreover, when transitioning to a mobile design and trying to make the website responsive, it is important to adhere to best practices. 
+
+For example, it is important to set the correct viewport. The viewport tag in meta can provide the browser valuable information on how to control the page's dimensions and scaling. Typically, mobile browsers render the page at a width of desktops, but with increased font sizes and scaling the content to fit the screen.
+
+When it comes to images, they have fixed dimensions and in the case where they are bigger than the viewport, scrollbars will appear. 
