@@ -13,4 +13,4 @@ When modifying the code, it is important to use similar milestones and checklist
 
 For example, it is important to set the correct viewport. The viewport tag in meta can provide the browser valuable information on how to control the page's dimensions and scaling. Typically, mobile browsers render the page at a width of desktops, but with increased font sizes and scaling the content to fit the screen.
 
-When it comes to images, they have fixed dimensions and in the case where they are bigger than the viewport, scrollbars will appear. 
+When it comes to images, they have fixed dimensions and in the case where they are bigger than the viewport, scrollbars will appear. This problem can be addressed by giving all images a max-width value of 100%. By doing this, images will now shrink only to fit the space that's available, if there's ever the case where the viewport is smaller than the image. The image also will not stretch larger than the original size it has.    
